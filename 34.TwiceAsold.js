@@ -1,5 +1,5 @@
 function twiceAsOld(dadYearsOld, sonYearsOld) {
-  return  dadYearsOld - (sonYearsOld * 2) < 0 ? - (dadYearsOld - (sonYearsOld * 2)): dadYearsOld - (sonYearsOld * 2)
+  return  dadYearsOld - (sonYearsOld * 2) < 0 ? Math.abs((dadYearsOld - (sonYearsOld * 2))): dadYearsOld - (sonYearsOld * 2)
 }
 
 console.log(twiceAsOld(36,7)); // 2
