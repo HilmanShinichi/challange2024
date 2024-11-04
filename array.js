@@ -8,7 +8,6 @@ function array(arr){
     return arr.split(",").slice(1,-1).join(" ") || null;
   }
 
-  
 console.log(array(''))
 console.log(array('A1,B1'))
 console.log(array('F4RU'))
