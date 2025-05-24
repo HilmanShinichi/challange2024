@@ -20,6 +20,8 @@ console.log(calculateTip(10, "terrible"));
 /*
 You need to consider the following ratings:
 
+
+
 Terrible: tip 0%
 Poor: tip 5%
 Good: tip 10%
